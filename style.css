@@ -5,18 +5,17 @@
 }
 
 body {
-  background: url("https://images.unsplash.com/photo-1614292253351-4deb4913c142?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-  background-size: cover;
-  top: -30px;
+  background: url("https://img.freepik.com/vecteurs-libre/modele-sans-couture-animaux-jungle_1284-41538.jpg?t=st=1657529214~exp=1657529814~hmac=dea63d373b7af726d674c3b7042732326d67dce7ae2b36fa291a8529a6997209&w=826");
+  top: 30px;
   left: -30px;
   width: calc(100vw + 60px);
   height: calc(100vh + 60px);
   position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  overflow: hidden;
 }
 
 .quiz-container {
@@ -85,4 +84,26 @@ button:focus {
 img {
   height: 5em;
   border-radius: 3px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(255, 251, 253, 0.56);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+span#coder {
+  font-weight: 900;
 }

@@ -73,12 +73,12 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "How to say Goodmorning in French?",
-    a: "Bonjour",
-    b: "Bonsoir",
-    c: "Bonne journée",
-    d: "Hey !",
-    correct: "a",
+    question: "What following word is not an animal?",
+    a: "Cheval",
+    b: "Chèvre",
+    c: "Maison",
+    d: "Cochon",
+    correct: "c",
   },
 ];
 
